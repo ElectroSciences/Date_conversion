@@ -20,6 +20,5 @@ mt = int(input("type month number "))
 if mt > 13 :
     print("Invalid")
     exit()
-
 yr = input("type year ")
 print("",mon.get(mt), day, yr)
